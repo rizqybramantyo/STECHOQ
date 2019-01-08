@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width:1100px;
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+.fleft{
+	float: left;
+}
+
+.fright {
+	float : right;
+}
+
+.clear {
+	clear: both;
+}
+
+h1{
+	font-size: 30px;
+	font-family: inherit;
+	color: inherit
+}
+
+.addData{
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+table.list{
+	width: 100%;
+	margin-top : 33px;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+
+table.list th{
+	background: #FFFFFF;
+	color: #000000;
+	padding: 9px;
+	border: 1px solid #ddd;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.list td{
+	padding: 9px;
+	text-align: center;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #ddd;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+
+table.list tr{
+		background: #FFFFFF;
+	color: #000000;
+	padding: 9px;
+	border: 1px solid #ddd;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+button{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+user-select: none;
+background-image:none;
+border:1px solid transparent;
+border-radius: 4px;
+}
+.fade.in{
+	opacity: 1;
+}
+
+.modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1050;
+	overflow: auto;
+	overflow-y: scroll;
+	outline: 0;
+	background: rgba(0,0,0, 0.4);
+}
+
+.fade {
+	transition: opacity .15s linear;
+}
+
+.modalContainer{
+	width: 555px;
+	background: #FFFFFF;
+	margin: auto;
+	margin-top: 44px;
+}
+
+.modalHeading{
+	padding: 9px;
+	background: #FFFFFF;
+	color: #000000;s
+}
+
+.modalContent{
+	min-height: 333px;
+	padding : 44px;
+}
+
+.close{
+	background-color: #D73131;
+	padding: 3px 9px;
+	border: none;
+	color:#FFFFFF;
+}
+
+table.form input{
+	padding : 9px;
+}
+
+ table.form td{
+ 	padding: 9px;
+ }
+
+ p.successMessage{
+ 	background: #D8EFC2;
+ 	color: #097133;
+ 	border-left: 5px solid #097133;
+ 	padding: 9px;
+ 	margin: 22px 0;
+ }
+
+ p.errorMessage{
+ 	background: #EFCBC2;
+ 	color: #D71517;
+ 	border-left: 5px solid #DA1527;
+ 	padding: 9px;
+ 	margin: 22px 0;
+ }
